@@ -1,0 +1,62 @@
+header{
+    width:100%;
+    height:70px;
+    background-color:forestgreen;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align:center;
+    font-size:xx-large;
+}
+h2{
+    text-align: center;
+    text-decoration:underline;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#item{
+    box-sizing: border-box;
+    padding: 10px;
+    margin-right: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+#submit{
+    background-color:grey;
+    padding:10px;
+    border-radius:5px;
+    color:white;
+}
+.task{
+    display:flex;
+    align-items: center;
+}
+.listitem{
+    border:1px solid #ccc;
+    border-radius:5px;
+    width:500px;
+    margin-left:350px;
+    padding:10px;
+}
+.edit{
+    padding:5px;
+    background-color: green;
+    border-radius: 5px;
+    font-weight: bold;
+    color:white;
+    justify-content: flex-end;
+}
+.delete{
+    padding:5px;
+    background-color: red;
+    border-radius:5px;
+    font-weight: bold;
+    color:white;
+    justify-content: flex-end;
+}
+ul{
+    list-style-type: none;
+}

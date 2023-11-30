@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" type="text/css" href="todo.css">
+</head>
+<body>
+    <div id="main">
+    <header>TODO LIST</header>
+    <h2>Add Items</h2>
+    <label id="lblsuccess" style="display: none;"> </label>
+    <form id="addForm">
+        <div class="container">
+        <input type="text" id="item" onkeyup= 
+        "toggleButton(this, 'submit')">
+        <input type="submit" id="submit" value="Submit"></div>
+    </form>
+    <h2>Tasks</h2>
+    <div class="task">
+    <form id="addForm"> 
+        <ul id="items"></ul> 
+    </form> </div></div>
+</body>
+<script src="todo.js"></script>
+</html>
